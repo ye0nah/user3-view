@@ -1,0 +1,11 @@
+doremi\AbstractEvent.class
+doremi\MenuRegistered.class
+doremi\Rated.class
+doremi\config\kafka\KafkaProcessor.class
+doremi\ViewViewHandler.class
+doremi\View.class
+doremi\ViewApplication.class
+doremi\AbstractEvent$1.class
+doremi\PolicyHandler.class
+doremi\Cancelled.class
+doremi\ViewRepository.class
