@@ -66,7 +66,6 @@ public class ViewViewHandler {
         try {
             if (cancelled.isMe()) {
                 // view 레파지 토리에 삭제 쿼리
-
                 List<View> viewList= viewRepository.findByMenuId(cancelled.getMenuId());
                 if(!viewList.isEmpty()){
                     System.out.println("##### whenCancelled_then_DELETE_1 View Delete"+viewList);
