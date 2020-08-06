@@ -9,5 +9,5 @@ public interface ViewRepository extends CrudRepository<View, Long> {
 
     List<View> findByMenuId(Long menuId);
 
-        void deleteByMenuId(Long menuId);
+
 }
